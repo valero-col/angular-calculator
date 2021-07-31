@@ -25,5 +25,8 @@ export class AppComponent {
   dividir():void{
     this.resultado = this.numero1 / this.numero2;
   }
-
+  potencia():void{
+    this.resultado = this.numero1 ** this.numero2;
+  }
+  
 } 
